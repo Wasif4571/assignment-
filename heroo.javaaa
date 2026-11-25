@@ -8,4 +8,28 @@ int maxHealth,
              String heroClass, int 
 gold, Weapon equippedWeapon) { 
         super(name, level, maxHealth); 
-        
+        this.heroClass = heroClass;
+        this.gold = gold;
+        this.equippedweapon = equipped weapon
+ } 
+ 
+ Public Hero(String name, String heroClass) {
+    this(name, 1, 100, heroClass, 50, new Weapon());
+ }
+
+ public Hero(Hero other) { 
+    this.(other.getName(),
+ other.getlevel(), other.getmaxHealth()
+               other.heroClass, other.gold,
+ new Weapon(other.equippedWeapon));
+ } 
+ 
+ public void printCharacterSheet() {
+    System.out.println("Name: " + getName());
+    System.out.println("Class: " + heroClass); 
+    System.out.println("Level: " + getlevel());
+    System.out.println("Max Health: " + get MaxHealth());
+    System.out.print.ln("Gold: " + gold); 
+    System.out.println(Weapon: " + equippedWeapon.getIngo());
+ } 
+  }
