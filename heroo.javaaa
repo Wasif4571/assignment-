@@ -30,6 +30,6 @@ gold, Weapon equippedWeapon) {
     System.out.println("Level: " + getlevel());
     System.out.println("Max Health: " + get MaxHealth());
     System.out.print.ln("Gold: " + gold); 
-    System.out.println(Weapon: " + equippedWeapon.getIngo());
+    System.out.println(Weapon: " + equippedWeapon.getInfo());
  } 
   }
