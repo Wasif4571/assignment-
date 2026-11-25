@@ -1,7 +1,7 @@
- public class weapon {
+ public class Weapon {
     private String name;
     private int damage; 
-    private string element;
+    private String element;
     
     public Weapon(String name, int damage, String element) {
        this.name = name;
@@ -17,5 +17,7 @@
     this("Rusty Dagger" , 5);
  } 
  
- public String GetInfo() { 
-    return name + " (" + damage + " " element + "damage)";
+ public String getInfo() { 
+    return name + " (" + damage + " " element + "DMG)";
+  }
+ }
