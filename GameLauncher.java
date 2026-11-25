@@ -12,4 +12,5 @@
     starterHero.printCharacterSheet();
     System.out.printCharacterSheet();
     clonedHero.printCharacterSheet();
-    
+{
+ }
