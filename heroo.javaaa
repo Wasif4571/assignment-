@@ -1,0 +1,11 @@
+ public class Hero extends Character { 
+    priatr String heroClass;
+    private int gold; 
+    private Weapon equipedWeapon;
+    
+    public Hero(String name, int level, 
+int maxHealth, 
+             String heroClass, int 
+gold, Weapon equippedWeapon) { 
+        super(name, level, maxHealth); 
+        
